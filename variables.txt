@@ -1,0 +1,17 @@
+food = "Pizza"
+
+is_delicious = true
+
+food = "ice cream"
+
+num2 = 26
+
+num7 = 53
+
+quotient = 2.04
+
+songs = ["Let it Be", "Get Back", "Hey Jude"]
+
+songs.shift()
+
+puts food.length
