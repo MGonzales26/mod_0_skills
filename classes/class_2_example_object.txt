@@ -1,0 +1,15 @@
+Megan's Order:
+
+Attributes:
+items = ["Cheeseburger", "Fries", "Strawberry shake"]
+cost = 10.26
+to_go = true
+special_instructions = "no pickles"
+complete = true
+
+Methods:
+add_item(adds the Cheeseburger, then the Fries, then the Strawberry shake)
+add_item(adds 10.26 to cost)
+choose_location(changes to_go from false to true)
+add_special_instructions(adds the string "no pickles")
+pick_up(changes complete from false to true)
