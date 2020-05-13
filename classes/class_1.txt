@@ -9,5 +9,5 @@ inside(boolean)
 Methods:
 clean(modifies whether the table is read or not)
 choose_setting(modifies the inside attribute)
-fill chair(decrements chairs_open by -1)
+fill_chair(decrements chairs_open by -1)
 add_condiments(modifies the condiment attribute)

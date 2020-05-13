@@ -1,0 +1,13 @@
+Megan's Table:
+
+Attributes:
+ready = false
+condiments = false
+chairs_open = 4
+inside = true
+
+Methods:
+clean changes ready from false to true
+choose_setting changes inside from true to false
+add_condiments changes condiments from false to true
+fill chair changes chairs_open from 4 to 3
