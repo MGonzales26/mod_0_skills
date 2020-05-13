@@ -1,0 +1,14 @@
+Order(class):
+
+Attributes:
+items(array)
+cost(float)
+to_go(boolean)
+special_instructions(string)
+complete(boolean)
+
+Methods:
+add_item(adds an item to the items array, and also increments the cost float)
+choose_location(modifies the to_go attribute)
+add_special_instructions(modifies/adds the special_instructions string)
+pick_up(modifies the complete attribute)
