@@ -1,15 +1,15 @@
 Megan's Order:
 
 Attributes:
-items =
-cost =
+items = ["Cheeseburger", "Fries", "Strawberry shake"]
+cost = 10.26
 to_go = false
-special_instructions =
+special_instructions = ""
 complete = false
 
 Methods:
-add_item(adds the array [Cheeseburger, Fries, Strawberry shake])
-add_item(adds the float 10.26 to cost)
+add_item(adds item "Hotdog" to the array ["Cheeseburger", "Fries", "Strawberry shake"] making it ["Cheeseburger", "Fries", "Strawberry shake", "Hotdog"])
+add_item(increases the cost float from 10.26 to 11.26)
 choose_location(changes to_go from false to true)
 add_special_instructions(adds the string "no pickles")
 pick_up(changes complete from false to true)
